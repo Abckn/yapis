@@ -1,0 +1,11 @@
+Integer xxxx(Integer a) {
+    a = a + 1
+    return a
+}
+
+main() {
+    Integer a = 2
+    Integer b = 4
+
+    Integer x = xxxx()
+}

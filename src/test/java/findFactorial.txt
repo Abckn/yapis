@@ -1,0 +1,24 @@
+
+
+main() {
+    Integer a = 5
+    Integer b = 10
+
+    Integer mx
+    if (a >= b) {
+        mx = a
+    }
+    else {
+        mx = b
+    }
+
+    print(mx)
+
+    Integer f = 1
+    for (Integer i = 1; i < mx; i++) {
+        f = f * i
+    }
+
+    print(f)
+}
+
